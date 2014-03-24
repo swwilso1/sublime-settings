@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+set_source_files_properties(
+	${0}
+	PROPERTIES ${1:THE_PROPERTY} ${2:VALUE}
+)
+]]></content>
+	<tabTrigger>fileprops</tabTrigger>
+	<scope>source.cmake</scope>
+	<description>set_source_files_properties</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

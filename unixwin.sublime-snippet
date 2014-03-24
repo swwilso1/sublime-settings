@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+#if UNIX_MATHLINK
+#elif WINDOWS_MATHLINK
+#else
+#	error "${1:foo} needs platform specific implementation"
+#endif // UNIX_MATHLINK || WINDOWS_MATHLINK
+
+]]>
+</content>
+	<tabTrigger>unixwin</tabTrigger>
+	<scope>source.c,source.h,source.objc,source.c++,source.h++,source.C++,source.H++</scope>
+	<description>#if UNIX_MATHLINK/WINDOWS_MATHLINK</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

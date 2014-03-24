@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+###################################################################################################
+#
+#   PythonLink source code (c) 2013, Wolfram Research, Inc. All rights reserved
+#
+#   Use is governed by the terms of the PythonLink license agreement, which can be found at
+#   www.wolfram.com/solutions/mathlink/pythonlink
+#
+#   Author: Steve Wilson
+#
+###################################################################################################
+
+]]></content>
+	<tabTrigger>pylinkcopy</tabTrigger>
+	<scope>source.python</scope>
+	<description>PythonLink copyright</description>
+</snippet>

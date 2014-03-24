@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+namespace ${1:NameSpace}
+{
+
+	${0}
+
+} // ${1}
+
+]]></content>
+	<tabTrigger>names</tabTrigger>
+	<scope>source.c++,source.C++,source.h,source.H++</scope>
+	<description>C++ namespace declaration</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

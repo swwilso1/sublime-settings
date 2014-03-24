@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+/**************************************************************************************************
+*
+*   PythonLink source code (c) 2013, Wolfram Research, Inc. All rights reserved
+*
+*   Use is governed by the terms of the PythonLink license agreement, which can be found at
+*   www.wolfram.com/solutions/mathlink/pythonlink
+*
+*   Author: Steve Wilson
+*
+***************************************************************************************************/
+
+]]></content>
+	<tabTrigger>pyclinkcopy</tabTrigger>
+	<scope>source.c,source.h,source.objc,source.c++,source.h++,source.C++,source.H++</scope>
+	<description>PythonLink copyright</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

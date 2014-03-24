@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+#ifndef ${1:$TM_FILENAME}
+#define $1
+
+$0
+
+#endif /* $1 */
+
+
+]]></content>
+	<tabTrigger>once</tabTrigger>
+	<scope>source.c,source.h,source.objc,source.c++,source.h++,source.C++,source.H++</scope>
+	<description>Header file include guard</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

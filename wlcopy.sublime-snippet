@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+/* begin copyright *******************************************************
+
+                    WolframLaunchManager source file
+
+        Copyright 2014 through 2014 by Wolfram Research Inc.
+
+This material contains trade secrets and may be registered with the
+U.S. Copyright Office as an unpublished work, pursuant to Title 17,
+U.S. Code, Section 408.  Unauthorized copying, adaptation, distribution
+or display is prohibited.
+
+********************************************************* end copyright */
+
+]]></content>
+    <tabTrigger>wlcopy</tabTrigger>
+    <scope>source.c,source.h,source.objc,source.c++,source.h++,source.C++,source.H++</scope>
+    <description>Wolfram Research Inc. copyright</description>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

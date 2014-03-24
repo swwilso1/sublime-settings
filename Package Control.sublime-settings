@@ -1,0 +1,16 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"Bison",
+		"CMake",
+		"GenerateUUID",
+		"Git",
+		"GitGutter",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-clang",
+		"SublimeLinter-pylint",
+		"TrailingSpaces"
+	]
+}

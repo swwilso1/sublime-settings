@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+@interface ${1:ClassName} : ${2:SuperClass}
+{
+}
+
+${0}
+
+@end
+
+]]></content>
+	<scope>source.objc,source.h</scope>
+	<description>Class interface declaration</description>
+	<tabTrigger>class</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+FORMATOBJECT_CREATE_FORMATTER;
+FORMATOBJECT_SET_CLASS_NAME(this->className());
+FORMATOBJECT_SET_CLASS_ID(this->classID());
+FORMATOBJECT_ADD_MEMBER(type,"name",value);
+FORMATOBJECT_ADD_POINTER(type,"name",value);
+FORMATOBJECT_ADD_VOID_POINTER("name",value);
+FORMATOBJECT_ADD_LIST(type, "name", value);
+FORMATOBJECT_ADD_MAP(type, "name", value);
+FORMATOBJECT_ADD_TEMPLATE(type);
+FORMATOBJECT_WRITE_FORMAT_TO_STREAM(o);
+FORMATOBJECT_DESTROY_FORMATTER;
+return o;
+]]></content>
+    <tabTrigger>format</tabTrigger>
+    <scope>source.c,source.h,source.objc,source.c++,source.h++,source.C++,source.H++</scope>
+    <description>WolframSystem library format entry for description() method</description>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
